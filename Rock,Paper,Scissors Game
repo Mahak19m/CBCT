@@ -1,0 +1,33 @@
+import random
+
+# A list of possible choices for the game
+choices = ['rock', 'paper', 'scissors']
+
+# Get the user's choice and convert it to lowercase for easy comparison
+user_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
+
+# Validate the user's input
+if user_choice not in choices:
+    print("Invalid choice. Please choose 'rock', 'paper', or 'scissors'.")
+else:
+    # Get the computer's choice randomly from the list
+    computer_choice = random.choice(choices)
+
+    print(f"\nYou chose: {user_choice}")
+    print(f"The computer chose: {computer_choice}\n")
+
+    # Now, let's determine the winner based on the rules.
+
+    # Check for a tie
+    if user_choice == computer_choice:
+        print("It's a tie!")
+
+    # Check the winning rules
+    elif (user_choice == 'rock' and computer_choice == 'scissors') or \
+         (user_choice == 'paper' and computer_choice == 'rock') or \
+         (user_choice == 'scissors' and computer_choice == 'paper'):
+        print("You win!")
+
+    # If none of the above conditions are met, the computer wins
+    else:
+        print("The computer wins!")
