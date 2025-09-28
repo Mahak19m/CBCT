@@ -1,6 +1,41 @@
 # CBCT
-* Project Title: A clear, professional title for your game.
- * Description: A short paragraph explaining what the project is.
- * How to Play/Run: Clear instructions for someone to download and run the game on their own computer.
- * Rules: List the winning rules of Rock, Paper, Scissors.
- * Technologies Used: Mention the programming language (e.g., "Built with Python").Contain all assignments and projects completed during CBTC internship
+1. ContactMaster
+
+Description:
+ContactMaster is a user-friendly application for managing personal or business contacts.
+
+Add new contacts
+
+Delete existing contacts
+
+Search contacts
+
+
+Learning Goals:
+
+Understand Python basics
+
+Practice data management
+
+Work with CRUD operations (Create, Read, Update, Delete)
+
+
+2. Rock Paper Scissors Game
+
+Description:
+A simple command-line Rock Paper Scissors game.
+
+Rock vs Paper → Paper wins
+
+Rock vs Scissors → Rock wins
+
+Paper vs Scissors → Scissors wins
+
+
+Learning Goals:
+
+Learn conditional statements
+
+Practice loops and user input handling
+
+
